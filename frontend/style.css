@@ -21,14 +21,19 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
+
+footer {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  height: 60px;
+  padding: 5px;
+  background-color: rgb(42, 46, 71);
+}
+
 #sing-in-button,
 #check-button {
   font-size: 14px;
-}
-
-.control-buttons {
-  background-color: honeydew;
-  border-radius: 3px;
 }
 
 #see-all,
@@ -78,19 +83,28 @@ h1 {
   margin-bottom: 100px;
 }
 
+.control-buttons {
+  background-color: honeydew;
+  border-radius: 3px;
+}
+
+.users-url {
+  border: 3px black solid;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 15px;
+}
+
 .buttons {
   margin-top: 10px;
   margin-right: 11px;
 }
 
-footer {
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  height: 60px;
-  padding: 5px;
-  background-color: rgb(42, 46, 71);
-}
+/*
+*
+Error messages
+*
+*/
 
 .alert {
   width: 50%;
@@ -125,11 +139,4 @@ footer {
 
 .closebtn:hover {
   color: black;
-}
-
-.users-url {
-  border: 3px black solid;
-  border-radius: 15px;
-  margin: 20px;
-  padding: 15px;
 }
