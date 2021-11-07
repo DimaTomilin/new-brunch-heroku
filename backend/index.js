@@ -14,10 +14,10 @@ const { findFile } = require('./src/directive');
 server.use(express.json());
 server.use(cors());
 
-server.use('/', express.static('../dist')); // serve main path as static dir
+server.use('/', express.static('./dist')); // serve main path as static dir
 server.get('/', function (req, res) {
   // serve main path as static file
-  res.sendFile('../dist/index.html');
+  res.sendFile('./dist/index.html');
 });
 
 server.use('/user', userRouter);
